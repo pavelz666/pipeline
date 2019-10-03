@@ -14,7 +14,7 @@ pipeline{
                 sh 'npm install'
             }
         },
-        stage('Start2'){
+        stage('Start'){
             steps{
                 sh 'npm start'
             }
