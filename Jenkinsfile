@@ -13,11 +13,12 @@ pipeline{
             steps{
                 sh 'npm install'
             }
-        }
+        },
         stage('Start'){
             steps{
                 sh 'npm start'
             }
         }
     }
+
 }
